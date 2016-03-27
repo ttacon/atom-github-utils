@@ -1,0 +1,22 @@
+{
+  "name": "github-utils",
+  "version": "0.0.1",
+  "description": "GitHub utilities",
+  "license": "ISC",
+  "engines": {
+    "atom": "*"
+  },
+  "main": "index.coffee",
+  "activationCommands": {
+    "atom-workspace": [
+      "github-utils:open"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ttacon",
+  "dependencies": {
+    "simple-git": "^1.31.0"
+  }
+}
